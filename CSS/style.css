@@ -1,0 +1,26 @@
+:root 
+{
+    --background-color: rgb(255, 231, 231);
+    
+    
+
+}
+body{
+    background-color: var(--background-color);
+}
+#head
+{
+    background-color: pink;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50 px;
+  
+}
+.post{
+    background-color: rgb(254, 217, 223);
+    font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: italic;
+}

@@ -12,6 +12,7 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     background-color: var(--background-color);
+    
 }
 
 main{
@@ -31,7 +32,8 @@ main{
     padding-left: 15px;
     padding-right: 15px;
     font-style: normal;
-    font-size: 20 px;
+    font-size: 20px;
+    border:1px solid var(--dark-color);
 
   
 }
@@ -83,7 +85,6 @@ main{
 
   a{
     color: var(--link-color);
-    background-color: var(--light-color);
     text-decoration: none;
 
   }
@@ -106,5 +107,68 @@ main{
     color: var(--light-color);
   }
 }
+
+/* Lab 2 Styles */
+
+.logo-holder{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--background-color);
+  font-weight: bold;
+}
+
+#logo{
+  height: 3em;
+  width: auto;
+  float: left;
+  margin-right: .5em;
+
+}
+
+.sub-head{
+  display: flex;
+  align-items: center; /* align items aligns things horizontally*/
+
+
+}
+
+/* Lab 3 Styles */
+
+.hide-me{
+  display: none;
+}
+
+.block-div, .block{
+  display: block;
+  color: rgb(255, 60, 60);
+  border: 1px solid var(--dark-color);
+  padding: 1em;
+
+}
+
+.block {
+  margin: 1em 0;
+}
+
+.inline{
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.2em 0.8em;
+  color: var(--dark-color) !important;
+  background-color: coral;
+  transform: rotate(-8deg);
+  font-weight: 800;
+  font-variation-settings:
+    "wdth" 75;
+}
+
+
+
+
 
 
